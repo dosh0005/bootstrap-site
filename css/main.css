@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Dosis|Crimson+Text|Domine');
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', 'Dosis', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Crimson Text', 'Domine', serif;
+}
+
+.content {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+html,
+body {
+     background-image: url("../img/city.jpg");
+    background-repeat: no-repeat;
+    background-color: #7a8b9e;
+    text-align: justify;
+    
+}
+
+.jumbotron,
+.mainThings {
+    background-color: #05D97C;
+}
+
+.title {
+    float: right;
+    font: bold;
+}
+
+
+.panel-body{
+    height: 150px;
+}
+
+.navbar-brand{
+    color: #05D97C !important;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.box{
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+.box h2{
+    
+}
+
+@media (max-width: 575px) and (min-width: 1px) {
+.navbar-brand{
+    color: #05D97C !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+    .nav-item {
+        display: none;
+    }
+    .navbar-toggle {
+        /*        float: right;*/
+    }
+}
+
+@media (min-width: 578px) {
+    
+    .boo {
+        display: block;
+    }
+    .mainTitle {
+        display: none;
+    }
+}
+
+
+/*******************************
+              FORM
+*******************************/
+
+.contact {
+    padding-top: 15px;
+}
+
+form {
+    display: center;
+}
+
+form .name {
+    margin-bottom: 5px;
+}
+
+form .email {
+    margin-bottom: 5px;
+}
+
+.location {
+    margin-left: 10px;
+}
+
+
+/*******************************
+              NAV
+*******************************/
+
+.navbar navbar-default,
+a {
+    list-style: none;
+    font: black;
+}
+
+nav navbar-nav {
+    font: bold 1.618rem #000000;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+    font: regular 1.618rem black;
+}
+
+nav a:active,
+nav a:focus,
+nav a:hover {
+    color: #000000;
+}
+
+
+/*******************************
+              FOOTER
+*******************************/
+
+footer {
+    background-color: #17E3C2;
+}
+
+footer h4 {
+    font-size: 16px;
+    padding: 0.5rem 2rem;
+    color: #7C593C;
+}
+
+footer p {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: #222;
+}
+
+footer .fa-circle {
+    color: #222;
+}
+
+
+}
